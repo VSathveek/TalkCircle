@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Lock files
+package-lock.json
+*/package-lock.json
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+client/node_modules
+client/dist 
+client/package-lock.json
+server/node_modules
+server/dist
+client/package.json
+server/package.json
+server/.env
