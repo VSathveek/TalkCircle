@@ -58,7 +58,7 @@ const Recordings = () => {
     return (
         <div className="relative w-[100vw] min-h-[calc(100vh-4rem)] bg-[#000000] flex flex-col items-center justify-start px-4 py-8 gap-6">
             <h1 className="text-white text-2xl font-bold mb-2 text-center">
-                Access Your PodChamber Recordings
+                Access Your TalkCircle Recordings
             </h1>
             <p className="text-white text-sm max-w-xl text-center">
                 Use the session ID generated during recording in the PodCell to access your content.
@@ -130,7 +130,7 @@ const Recordings = () => {
                 )}
 
 
-            <div className="absolute bottom-[1rem] w-full text-center text-white font-semibold">Made by Abhiram T</div>
+            <div className="absolute bottom-[1rem] w-full text-center text-white font-semibold">Made by V Sathveek</div>
         </div>
     )
 }
