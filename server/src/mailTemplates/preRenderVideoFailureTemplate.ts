@@ -51,7 +51,7 @@ const preRenderVideoFailureTemplate = () => {
   <body>
     <div class="container">
       <a href=""><img class="logo"
-        src="https://podchamber-test1.s3.ap-south-1.amazonaws.com/web-assets/icon.png" alt="PodChamber Logo"></a>
+        src="https://podchamber-test1.s3.ap-south-1.amazonaws.com/web-assets/icon.png" alt="TalkCircle Logo"></a>
       <div class="message">Video Rendering Failed</div>
       <div class="body">
         <p>Dear User,</p>
