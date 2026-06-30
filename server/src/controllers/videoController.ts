@@ -159,7 +159,7 @@ export const getCompleteLayoutVideo = async (req: Request, res: Response) => {
         const htmlBody = preRenderVideoLinkTemplate(finalUrl);
         await SendEmail({
           email: emailId,
-          title: "Your PodChamber Pre-Rendered Video is Ready",
+          title: "Your TalkCircle Pre-Rendered Video is Ready",
           body: htmlBody,
         });
 
@@ -167,7 +167,7 @@ export const getCompleteLayoutVideo = async (req: Request, res: Response) => {
         console.error("Background video processing failed:", err);
         await SendEmail({
           email: emailId,
-          title: "PodChamber Video Rendering Failed",
+          title: "TalkCircle Video Rendering Failed",
           body: preRenderVideoFailureTemplate(),
         });
       }
