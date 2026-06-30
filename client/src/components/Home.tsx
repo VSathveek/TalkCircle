@@ -79,7 +79,7 @@ const Home = () => {
                 </button>
             </div>
         </div>
-        <div className="relative w-full py-[0rem] text-center text-white font-semibold">Made by Abhiram T</div>
+        <div className="relative w-full py-[0rem] text-center text-white font-semibold">Made by V Sathveek</div>
     </div>
   )
 }
