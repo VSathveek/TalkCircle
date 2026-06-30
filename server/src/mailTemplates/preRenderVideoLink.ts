@@ -63,11 +63,11 @@ const preRenderVideoLinkTemplate = (link: string) => {
 	<body>
 		<div class="container">
 			<a href=""><img class="logo"
-					src="https://podchamber-test1.s3.ap-south-1.amazonaws.com/web-assets/icon.png" alt="PodChamber Logo"></a>
+					src="https://podchamber-test1.s3.ap-south-1.amazonaws.com/web-assets/icon.png" alt="TalkCircle Logo"></a>
 			<div class="message">Your Pre-Rendered Video</div>
 			<div class="body">
 				<p>Dear User,</p>
-				<p>Thank you for using <strong>PodChamber</strong>. Below is the link to download your pre-rendered video:</p>
+				<p>Thank you for using <strong>TalkCircle</strong>. Below is the link to download your pre-rendered video:</p>
 				<p><a class="cta" href="${link}" target="_blank">Download Video</a></p>
 				<p>This video will be automatically deleted after <strong>24 hours</strong>. Kindly download it before that time.</p>
 			</div>
