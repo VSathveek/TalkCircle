@@ -18,7 +18,7 @@ export const SendEmail = async({email,title,body}: MailTypes) => {
         });
 
         const mailOptions = {
-            from : "PodChamber | Rendered Video Link",
+            from : "TalkCircle | Rendered Video Link",
             to:email,
             subject:title,
             html:body,
