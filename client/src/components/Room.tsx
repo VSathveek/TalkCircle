@@ -453,7 +453,7 @@ const Room = () => {
                 </button>
             </div>
 
-            <div className="relative w-full py-[1rem] text-center text-white font-semibold">Made by Abhiram T</div>
+            <div className="relative w-full py-[1rem] text-center text-white font-semibold">Made by V Sathveek</div>
         </div>
     )
 }
